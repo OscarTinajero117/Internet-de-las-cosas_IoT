@@ -2,7 +2,7 @@
 
 LiquidCrystal_I2C lcd (0x27, 16, 2); //LCD
 
-
+int BT = 0;
 //***************SU***************//
 
 //ECHO
@@ -18,6 +18,7 @@ long distSU;
 int const lm35 = A0;
 float temp;
 int const led = 4;
+int estadoLed = 0;
 
 //***************/LED & LM35***************//
 
@@ -57,10 +58,31 @@ void loop() {
   lcd.print("Temp:");
   lcd.print(temp);
   lcd.print(" C");
+
+  if(Serial.available()>0){
+    BT = Serial.read();
+  }
+  //ON
+  if(BT =='A'){
+    digitalWrite(led, HIGH);
+  }
+  if(BT == 'B'){
+    digitalWrite(led,LOW);
+  }
+
+  bluetooth(distSU,temp);
   
-  Serial.println(temp);
-  delay(700);
+  delay(800);
 }//loop
+
+//*******************BT*********************//
+void bluetooth(long ultra, float stLM35){
+  Serial.print(stLM35);
+  Serial.print(String("|"));
+  Serial.print(ultra);
+  Serial.print(String("|"));
+}
+//*******************/BT*********************//
 
 //***************Funciones US***************//
 
