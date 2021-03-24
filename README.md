@@ -1,6 +1,6 @@
 # Internet-de-las-cosas_IoT
 
-![alt text](https://raw.githubusercontent.com/OscarTinajero117/Internet-de-las-cosas_IoT/master/Imagenes-Tec/Logo-TecValles.png)
+->![alt text](https://raw.githubusercontent.com/OscarTinajero117/Internet-de-las-cosas_IoT/master/Imagenes-Tec/Logo-TecValles.png)<-
 
 <p algin="center">
     <img src="Imagenes-Tec/Logo-TecValles.png" width="350" height="350" />
