@@ -2,9 +2,9 @@
 
 ![alt text](https://raw.githubusercontent.com/OscarTinajero117/Internet-de-las-cosas_IoT/master/Imagenes-Tec/Logo-TecValles.png)
 
-<div algin="center">
+<p algin="center">
     <img src="Imagenes-Tec/Logo-TecValles.png" width="350" height="350" />
-</div>
+</p>
 
 Repositorio para la materia de IoT, cursada en el TecNM Campus Instituto Tecnológico de Ciudad Valles Octavo Semestre (MARZO - JULIO 2021)
 
