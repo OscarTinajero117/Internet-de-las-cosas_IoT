@@ -10,6 +10,6 @@ Se hizo una Shield casera para manejar fácilmente la placa
 
 Muestra de la placa funcionando:
 
-![](https://raw.githubusercontent.com/OscarTinajero117/Internet-de-las-cosas_IoT/master/Practica_2-Led-ESP32CAM/Img/Picture1.png)
+![](https://raw.githubusercontent.com/OscarTinajero117/Internet-de-las-cosas_IoT/master/Practica_2-Led-ESP32CAM/Img/Picture2.png)
 
-![](https://raw.githubusercontent.com/OscarTinajero117/Internet-de-las-cosas_IoT/master/Practica_2-Led-ESP32CAM/Img/Picture1.png)
+![](https://raw.githubusercontent.com/OscarTinajero117/Internet-de-las-cosas_IoT/master/Practica_2-Led-ESP32CAM/Img/Picture3.png)
