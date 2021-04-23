@@ -16,6 +16,8 @@
 ![](./assets/secuencias.jpeg)
 4. Según el rango de valor que tenga el potenciómetro cambiará la secuencia.
 5. En la placa ESP32-CAM se trabajará con los pines GPIO2 (Potenciómetro), GPIO14 (Pin de DATA), GPIO15 (Pin de CLOCK) y GPIO13 (Pin de STROBE).
+![](./assets/ESP32-CAM-1.JPG)
+![](./assets/ESP32-CAM-2.JPG)
 
 ## Resultados:
 ### Secuencia 0:
@@ -29,6 +31,7 @@
 ### Secuencia 4:
 
 ## Información de ayuda:
+[Blog donde enseñan sobre el comando shiftOut](http://manueldelgadocrespo.blogspot.com/p/shiftout_1.html)
 
-http://manueldelgadocrespo.blogspot.com/p/shiftout_1.html
-https://www.youtube.com/watch?v=fOIQCieTDEc
+[Vídeo donde explican sobre el CD4094 en un Arduino R3 Uno](https://www.youtube.com/watch?v=fOIQCieTDEc)
+
