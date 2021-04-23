@@ -11,7 +11,7 @@
 
 ## Procedimiento
 
-1. Lo primero que se hace es analizar el CD4094, la información necesaria está en [este documento.](Practica_3-Leds_PotenESP32CAM/assetsCD4094 - Oscar Tinajero.pdf)
+1. Lo primero que se hace es analizar el CD4094, la información necesaria está en [este documento](Practica_3-Leds_PotenESP32CAM/assets/CD4094 - Oscar Tinajero.pdf)
 2. Con ayuda de la siguiente tabla se realizarón unas operaciones para simplificar y facilitar la programación. Se ven las secuencias que tienen los LEDs, las 'S' corresponden a los LEDs, las 'Q' corresponden a las salidas del CD4094 ('Q8' no es utilizado por el momento). Los Binarios resultantes se convierten a decimales.
 3. Según el rango de valor que tenga el potenciómetro cambiará la secuencia.
 4. En la placa ESP32-CAM se trabajará con los pines GPIO2 (Potenciómetro), GPIO14 (Pin de DATA), GPIO15 (Pin de CLOCK) y GPIO13 (Pin de STROBE).
